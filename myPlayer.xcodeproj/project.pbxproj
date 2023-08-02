@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6193A4A62A79FB6400B63236 /* ffmpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4A42A79FB6400B63236 /* ffmpeg.c */; };
+		6193A4BC2A79FCD500B63236 /* libxcb-shape.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4AC2A79FCD500B63236 /* libxcb-shape.0.dylib */; };
+		6193A4BD2A79FCD500B63236 /* libxcb-shape.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4AC2A79FCD500B63236 /* libxcb-shape.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4BE2A79FCD500B63236 /* libxcb-shm.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4AD2A79FCD500B63236 /* libxcb-shm.0.dylib */; };
+		6193A4BF2A79FCD500B63236 /* libxcb-shm.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4AD2A79FCD500B63236 /* libxcb-shm.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4C02A79FCD500B63236 /* libxcb.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4AE2A79FCD500B63236 /* libxcb.1.dylib */; };
+		6193A4C12A79FCD500B63236 /* libxcb.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4AE2A79FCD500B63236 /* libxcb.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4C22A79FCD500B63236 /* libXau.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4AF2A79FCD500B63236 /* libXau.6.dylib */; };
+		6193A4C32A79FCD500B63236 /* libXau.6.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4AF2A79FCD500B63236 /* libXau.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4C42A79FCD500B63236 /* libavfilter.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4B02A79FCD500B63236 /* libavfilter.9.dylib */; };
+		6193A4C52A79FCD500B63236 /* libavfilter.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4B02A79FCD500B63236 /* libavfilter.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4C62A79FCD500B63236 /* libopenjp2.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4B12A79FCD500B63236 /* libopenjp2.7.dylib */; };
+		6193A4C72A79FCD500B63236 /* libopenjp2.7.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4B12A79FCD500B63236 /* libopenjp2.7.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4C82A79FCD500B63236 /* libswresample.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4B22A79FCD500B63236 /* libswresample.4.dylib */; };
+		6193A4C92A79FCD500B63236 /* libswresample.4.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4B22A79FCD500B63236 /* libswresample.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4CA2A79FCD500B63236 /* libXdmcp.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4B32A79FCD500B63236 /* libXdmcp.6.dylib */; };
+		6193A4CB2A79FCD500B63236 /* libXdmcp.6.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4B32A79FCD500B63236 /* libXdmcp.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4CC2A79FCD500B63236 /* libavcodec.60.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4B42A79FCD500B63236 /* libavcodec.60.dylib */; };
+		6193A4CD2A79FCD500B63236 /* libavcodec.60.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4B42A79FCD500B63236 /* libavcodec.60.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4CE2A79FCD500B63236 /* libavdevice.60.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4B52A79FCD500B63236 /* libavdevice.60.dylib */; };
+		6193A4CF2A79FCD500B63236 /* libavdevice.60.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4B52A79FCD500B63236 /* libavdevice.60.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4D02A79FCD500B63236 /* libavutil.58.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4B62A79FCD500B63236 /* libavutil.58.dylib */; };
+		6193A4D12A79FCD500B63236 /* libavutil.58.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4B62A79FCD500B63236 /* libavutil.58.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4D22A79FCD500B63236 /* libX11.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4B72A79FCD500B63236 /* libX11.6.dylib */; };
+		6193A4D32A79FCD500B63236 /* libX11.6.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4B72A79FCD500B63236 /* libX11.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4D42A79FCD500B63236 /* libxcb-xfixes.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4B82A79FCD500B63236 /* libxcb-xfixes.0.dylib */; };
+		6193A4D52A79FCD500B63236 /* libxcb-xfixes.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4B82A79FCD500B63236 /* libxcb-xfixes.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4D62A79FCD500B63236 /* libswscale.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4B92A79FCD500B63236 /* libswscale.7.dylib */; };
+		6193A4D72A79FCD500B63236 /* libswscale.7.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4B92A79FCD500B63236 /* libswscale.7.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4DA2A79FCD500B63236 /* libavformat.60.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4BB2A79FCD500B63236 /* libavformat.60.dylib */; };
+		6193A4DB2A79FCD500B63236 /* libavformat.60.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4BB2A79FCD500B63236 /* libavformat.60.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6193A4DF2A7A273F00B63236 /* EmpetyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4DE2A7A273F00B63236 /* EmpetyListView.swift */; };
+		6193A4E12A7A279400B63236 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4E02A7A279400B63236 /* FavoritesView.swift */; };
+		6193A4E42A7A27F800B63236 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4E32A7A27F800B63236 /* Song.swift */; };
+		6193A4E62A7A284800B63236 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4E52A7A284800B63236 /* AudioPlayer.swift */; };
+		6193A4E82A7A28A700B63236 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4E72A7A28A700B63236 /* ListContentView.swift */; };
+		6193A4EA2A7A28F000B63236 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4E92A7A28F000B63236 /* MainMenuView.swift */; };
+		6193A4ED2A7A296600B63236 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 6193A4EC2A7A296600B63236 /* Logging */; };
+		6193A4EF2A7A299000B63236 /* ModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4EE2A7A299000B63236 /* ModifiersView.swift */; };
+		6193A4F12A7A29BA00B63236 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4F02A7A29BA00B63236 /* PlayerView.swift */; };
+		6193A4F32A7A29F000B63236 /* TitlebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4F22A7A29F000B63236 /* TitlebarView.swift */; };
+		7993F42D2A78EA4900F0E046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993F42C2A78EA4900F0E046 /* AppDelegate.swift */; };
+		7993F42F2A78EA4900F0E046 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993F42E2A78EA4900F0E046 /* ContentView.swift */; };
+		7993F4312A78EA4C00F0E046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7993F4302A78EA4C00F0E046 /* Assets.xcassets */; };
+		7993F4342A78EA4C00F0E046 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7993F4332A78EA4C00F0E046 /* Preview Assets.xcassets */; };
+		7993F4372A78EA4C00F0E046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7993F4352A78EA4C00F0E046 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6193A4DC2A79FCD500B63236 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6193A4D12A79FCD500B63236 /* libavutil.58.dylib in Embed Libraries */,
+				6193A4DB2A79FCD500B63236 /* libavformat.60.dylib in Embed Libraries */,
+				6193A4CD2A79FCD500B63236 /* libavcodec.60.dylib in Embed Libraries */,
+				6193A4BD2A79FCD500B63236 /* libxcb-shape.0.dylib in Embed Libraries */,
+				6193A4CB2A79FCD500B63236 /* libXdmcp.6.dylib in Embed Libraries */,
+				6193A4C92A79FCD500B63236 /* libswresample.4.dylib in Embed Libraries */,
+				6193A4D52A79FCD500B63236 /* libxcb-xfixes.0.dylib in Embed Libraries */,
+				6193A4C52A79FCD500B63236 /* libavfilter.9.dylib in Embed Libraries */,
+				6193A4C32A79FCD500B63236 /* libXau.6.dylib in Embed Libraries */,
+				6193A4D72A79FCD500B63236 /* libswscale.7.dylib in Embed Libraries */,
+				6193A4BF2A79FCD500B63236 /* libxcb-shm.0.dylib in Embed Libraries */,
+				6193A4C72A79FCD500B63236 /* libopenjp2.7.dylib in Embed Libraries */,
+				6193A4D32A79FCD500B63236 /* libX11.6.dylib in Embed Libraries */,
+				6193A4CF2A79FCD500B63236 /* libavdevice.60.dylib in Embed Libraries */,
+				6193A4C12A79FCD500B63236 /* libxcb.1.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6193A4A32A79FB6300B63236 /* myPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		6193A4A42A79FB6400B63236 /* ffmpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ffmpeg.c; path = ../../../../mac10/mac10/ffmpeg.c; sourceTree = "<group>"; };
+		6193A4A52A79FB6400B63236 /* ffmpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ffmpeg.h; path = ../../../../mac10/mac10/ffmpeg.h; sourceTree = "<group>"; };
+		6193A4AC2A79FCD500B63236 /* libxcb-shape.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libxcb-shape.0.dylib"; path = "myPlayer/Frameworks/libxcb-shape.0.dylib"; sourceTree = "<group>"; };
+		6193A4AD2A79FCD500B63236 /* libxcb-shm.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libxcb-shm.0.dylib"; path = "myPlayer/Frameworks/libxcb-shm.0.dylib"; sourceTree = "<group>"; };
+		6193A4AE2A79FCD500B63236 /* libxcb.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxcb.1.dylib; path = myPlayer/Frameworks/libxcb.1.dylib; sourceTree = "<group>"; };
+		6193A4AF2A79FCD500B63236 /* libXau.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libXau.6.dylib; path = myPlayer/Frameworks/libXau.6.dylib; sourceTree = "<group>"; };
+		6193A4B02A79FCD500B63236 /* libavfilter.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavfilter.9.dylib; path = myPlayer/Frameworks/libavfilter.9.dylib; sourceTree = "<group>"; };
+		6193A4B12A79FCD500B63236 /* libopenjp2.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenjp2.7.dylib; path = myPlayer/Frameworks/libopenjp2.7.dylib; sourceTree = "<group>"; };
+		6193A4B22A79FCD500B63236 /* libswresample.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.4.dylib; path = myPlayer/Frameworks/libswresample.4.dylib; sourceTree = "<group>"; };
+		6193A4B32A79FCD500B63236 /* libXdmcp.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libXdmcp.6.dylib; path = myPlayer/Frameworks/libXdmcp.6.dylib; sourceTree = "<group>"; };
+		6193A4B42A79FCD500B63236 /* libavcodec.60.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.60.dylib; path = myPlayer/Frameworks/libavcodec.60.dylib; sourceTree = "<group>"; };
+		6193A4B52A79FCD500B63236 /* libavdevice.60.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.60.dylib; path = myPlayer/Frameworks/libavdevice.60.dylib; sourceTree = "<group>"; };
+		6193A4B62A79FCD500B63236 /* libavutil.58.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.58.dylib; path = myPlayer/Frameworks/libavutil.58.dylib; sourceTree = "<group>"; };
+		6193A4B72A79FCD500B63236 /* libX11.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libX11.6.dylib; path = myPlayer/Frameworks/libX11.6.dylib; sourceTree = "<group>"; };
+		6193A4B82A79FCD500B63236 /* libxcb-xfixes.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libxcb-xfixes.0.dylib"; path = "myPlayer/Frameworks/libxcb-xfixes.0.dylib"; sourceTree = "<group>"; };
+		6193A4B92A79FCD500B63236 /* libswscale.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswscale.7.dylib; path = myPlayer/Frameworks/libswscale.7.dylib; sourceTree = "<group>"; };
+		6193A4BA2A79FCD500B63236 /* liblzma.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblzma.5.dylib; path = myPlayer/Frameworks/liblzma.5.dylib; sourceTree = "<group>"; };
+		6193A4BB2A79FCD500B63236 /* libavformat.60.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.60.dylib; path = myPlayer/Frameworks/libavformat.60.dylib; sourceTree = "<group>"; };
+		6193A4DE2A7A273F00B63236 /* EmpetyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpetyListView.swift; sourceTree = "<group>"; };
+		6193A4E02A7A279400B63236 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		6193A4E32A7A27F800B63236 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		6193A4E52A7A284800B63236 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		6193A4E72A7A28A700B63236 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
+		6193A4E92A7A28F000B63236 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		6193A4EE2A7A299000B63236 /* ModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersView.swift; sourceTree = "<group>"; };
+		6193A4F02A7A29BA00B63236 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		6193A4F22A7A29F000B63236 /* TitlebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlebarView.swift; sourceTree = "<group>"; };
+		7993F4292A78EA4900F0E046 /* myPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7993F42C2A78EA4900F0E046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7993F42E2A78EA4900F0E046 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7993F4302A78EA4C00F0E046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7993F4332A78EA4C00F0E046 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7993F4362A78EA4C00F0E046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7993F4382A78EA4C00F0E046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7993F4392A78EA4C00F0E046 /* myPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = myPlayer.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7993F4262A78EA4900F0E046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6193A4D02A79FCD500B63236 /* libavutil.58.dylib in Frameworks */,
+				6193A4DA2A79FCD500B63236 /* libavformat.60.dylib in Frameworks */,
+				6193A4CC2A79FCD500B63236 /* libavcodec.60.dylib in Frameworks */,
+				6193A4BC2A79FCD500B63236 /* libxcb-shape.0.dylib in Frameworks */,
+				6193A4CA2A79FCD500B63236 /* libXdmcp.6.dylib in Frameworks */,
+				6193A4C82A79FCD500B63236 /* libswresample.4.dylib in Frameworks */,
+				6193A4D42A79FCD500B63236 /* libxcb-xfixes.0.dylib in Frameworks */,
+				6193A4C42A79FCD500B63236 /* libavfilter.9.dylib in Frameworks */,
+				6193A4C22A79FCD500B63236 /* libXau.6.dylib in Frameworks */,
+				6193A4D62A79FCD500B63236 /* libswscale.7.dylib in Frameworks */,
+				6193A4BE2A79FCD500B63236 /* libxcb-shm.0.dylib in Frameworks */,
+				6193A4C62A79FCD500B63236 /* libopenjp2.7.dylib in Frameworks */,
+				6193A4D22A79FCD500B63236 /* libX11.6.dylib in Frameworks */,
+				6193A4CE2A79FCD500B63236 /* libavdevice.60.dylib in Frameworks */,
+				6193A4ED2A7A296600B63236 /* Logging in Frameworks */,
+				6193A4C02A79FCD500B63236 /* libxcb.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6193A4AB2A79FCD500B63236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6193A4B42A79FCD500B63236 /* libavcodec.60.dylib */,
+				6193A4B52A79FCD500B63236 /* libavdevice.60.dylib */,
+				6193A4B02A79FCD500B63236 /* libavfilter.9.dylib */,
+				6193A4BB2A79FCD500B63236 /* libavformat.60.dylib */,
+				6193A4B62A79FCD500B63236 /* libavutil.58.dylib */,
+				6193A4BA2A79FCD500B63236 /* liblzma.5.dylib */,
+				6193A4B12A79FCD500B63236 /* libopenjp2.7.dylib */,
+				6193A4B22A79FCD500B63236 /* libswresample.4.dylib */,
+				6193A4B92A79FCD500B63236 /* libswscale.7.dylib */,
+				6193A4B72A79FCD500B63236 /* libX11.6.dylib */,
+				6193A4AF2A79FCD500B63236 /* libXau.6.dylib */,
+				6193A4AC2A79FCD500B63236 /* libxcb-shape.0.dylib */,
+				6193A4AD2A79FCD500B63236 /* libxcb-shm.0.dylib */,
+				6193A4B82A79FCD500B63236 /* libxcb-xfixes.0.dylib */,
+				6193A4AE2A79FCD500B63236 /* libxcb.1.dylib */,
+				6193A4B32A79FCD500B63236 /* libXdmcp.6.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6193A4DD2A7A270F00B63236 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6193A4DE2A7A273F00B63236 /* EmpetyListView.swift */,
+				6193A4E02A7A279400B63236 /* FavoritesView.swift */,
+				6193A4E72A7A28A700B63236 /* ListContentView.swift */,
+				6193A4E92A7A28F000B63236 /* MainMenuView.swift */,
+				6193A4EE2A7A299000B63236 /* ModifiersView.swift */,
+				6193A4F02A7A29BA00B63236 /* PlayerView.swift */,
+				6193A4F22A7A29F000B63236 /* TitlebarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6193A4E22A7A27E500B63236 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				6193A4E32A7A27F800B63236 /* Song.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		7993F4202A78EA4900F0E046 = {
+			isa = PBXGroup;
+			children = (
+				7993F42B2A78EA4900F0E046 /* myPlayer */,
+				7993F42A2A78EA4900F0E046 /* Products */,
+				6193A4AB2A79FCD500B63236 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7993F42A2A78EA4900F0E046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7993F4292A78EA4900F0E046 /* myPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7993F42B2A78EA4900F0E046 /* myPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6193A4E22A7A27E500B63236 /* Module */,
+				6193A4DD2A7A270F00B63236 /* Views */,
+				6193A4A42A79FB6400B63236 /* ffmpeg.c */,
+				6193A4A52A79FB6400B63236 /* ffmpeg.h */,
+				7993F42C2A78EA4900F0E046 /* AppDelegate.swift */,
+				7993F42E2A78EA4900F0E046 /* ContentView.swift */,
+				7993F4302A78EA4C00F0E046 /* Assets.xcassets */,
+				7993F4352A78EA4C00F0E046 /* Main.storyboard */,
+				7993F4382A78EA4C00F0E046 /* Info.plist */,
+				7993F4392A78EA4C00F0E046 /* myPlayer.entitlements */,
+				7993F4322A78EA4C00F0E046 /* Preview Content */,
+				6193A4A32A79FB6300B63236 /* myPlayer-Bridging-Header.h */,
+				6193A4E52A7A284800B63236 /* AudioPlayer.swift */,
+			);
+			path = myPlayer;
+			sourceTree = "<group>";
+		};
+		7993F4322A78EA4C00F0E046 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7993F4332A78EA4C00F0E046 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7993F4282A78EA4900F0E046 /* myPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7993F43C2A78EA4C00F0E046 /* Build configuration list for PBXNativeTarget "myPlayer" */;
+			buildPhases = (
+				7993F4252A78EA4900F0E046 /* Sources */,
+				7993F4262A78EA4900F0E046 /* Frameworks */,
+				7993F4272A78EA4900F0E046 /* Resources */,
+				6193A4DC2A79FCD500B63236 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myPlayer;
+			packageProductDependencies = (
+				6193A4EC2A7A296600B63236 /* Logging */,
+			);
+			productName = myPlayer;
+			productReference = 7993F4292A78EA4900F0E046 /* myPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7993F4212A78EA4900F0E046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7993F4282A78EA4900F0E046 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 7993F4242A78EA4900F0E046 /* Build configuration list for PBXProject "myPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7993F4202A78EA4900F0E046;
+			packageReferences = (
+				6193A4EB2A7A296600B63236 /* XCRemoteSwiftPackageReference "swift-log" */,
+			);
+			productRefGroup = 7993F42A2A78EA4900F0E046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7993F4282A78EA4900F0E046 /* myPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7993F4272A78EA4900F0E046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7993F4372A78EA4C00F0E046 /* Main.storyboard in Resources */,
+				7993F4342A78EA4C00F0E046 /* Preview Assets.xcassets in Resources */,
+				7993F4312A78EA4C00F0E046 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7993F4252A78EA4900F0E046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6193A4E42A7A27F800B63236 /* Song.swift in Sources */,
+				6193A4E12A7A279400B63236 /* FavoritesView.swift in Sources */,
+				6193A4E82A7A28A700B63236 /* ListContentView.swift in Sources */,
+				6193A4F12A7A29BA00B63236 /* PlayerView.swift in Sources */,
+				6193A4EA2A7A28F000B63236 /* MainMenuView.swift in Sources */,
+				6193A4A62A79FB6400B63236 /* ffmpeg.c in Sources */,
+				6193A4EF2A7A299000B63236 /* ModifiersView.swift in Sources */,
+				7993F42F2A78EA4900F0E046 /* ContentView.swift in Sources */,
+				6193A4DF2A7A273F00B63236 /* EmpetyListView.swift in Sources */,
+				7993F42D2A78EA4900F0E046 /* AppDelegate.swift in Sources */,
+				6193A4E62A7A284800B63236 /* AudioPlayer.swift in Sources */,
+				6193A4F32A7A29F000B63236 /* TitlebarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7993F4352A78EA4C00F0E046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7993F4362A78EA4C00F0E046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7993F43A2A78EA4C00F0E046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/myPlayer/deps/include";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7993F43B2A78EA4C00F0E046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/myPlayer/deps/include";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7993F43D2A78EA4C00F0E046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = myPlayer/myPlayer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = F6AF2Z7N97;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = myPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/myPlayer/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ffactory.myPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myPlayer/myPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7993F43E2A78EA4C00F0E046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = myPlayer/myPlayer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = F6AF2Z7N97;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = myPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/myPlayer/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ffactory.myPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myPlayer/myPlayer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7993F4242A78EA4900F0E046 /* Build configuration list for PBXProject "myPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7993F43A2A78EA4C00F0E046 /* Debug */,
+				7993F43B2A78EA4C00F0E046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7993F43C2A78EA4C00F0E046 /* Build configuration list for PBXNativeTarget "myPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7993F43D2A78EA4C00F0E046 /* Debug */,
+				7993F43E2A78EA4C00F0E046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6193A4EB2A7A296600B63236 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6193A4EC2A7A296600B63236 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6193A4EB2A7A296600B63236 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7993F4212A78EA4900F0E046 /* Project object */;
+}
