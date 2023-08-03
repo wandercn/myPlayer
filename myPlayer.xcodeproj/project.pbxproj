@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6193A4A62A79FB6400B63236 /* ffmpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 6193A4A42A79FB6400B63236 /* ffmpeg.c */; };
+		61000CFE2A7B3F3100241381 /* ffmpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61000CFD2A7B3F3100241381 /* ffmpeg.c */; };
 		6193A4BC2A79FCD500B63236 /* libxcb-shape.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4AC2A79FCD500B63236 /* libxcb-shape.0.dylib */; };
 		6193A4BD2A79FCD500B63236 /* libxcb-shape.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6193A4AC2A79FCD500B63236 /* libxcb-shape.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		6193A4BE2A79FCD500B63236 /* libxcb-shm.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6193A4AD2A79FCD500B63236 /* libxcb-shm.0.dylib */; };
@@ -84,9 +84,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6193A4A32A79FB6300B63236 /* myPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
-		6193A4A42A79FB6400B63236 /* ffmpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ffmpeg.c; path = ../../../../mac10/mac10/ffmpeg.c; sourceTree = "<group>"; };
-		6193A4A52A79FB6400B63236 /* ffmpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ffmpeg.h; path = ../../../../mac10/mac10/ffmpeg.h; sourceTree = "<group>"; };
+		61000CFC2A7B3F3100241381 /* ffmpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ffmpeg.h; sourceTree = "<group>"; };
+		61000CFD2A7B3F3100241381 /* ffmpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ffmpeg.c; sourceTree = "<group>"; };
+		61000CFF2A7B400800241381 /* myPlayer(macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myPlayer(macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
 		6193A4AC2A79FCD500B63236 /* libxcb-shape.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libxcb-shape.0.dylib"; path = "myPlayer/Frameworks/libxcb-shape.0.dylib"; sourceTree = "<group>"; };
 		6193A4AD2A79FCD500B63236 /* libxcb-shm.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libxcb-shm.0.dylib"; path = "myPlayer/Frameworks/libxcb-shm.0.dylib"; sourceTree = "<group>"; };
 		6193A4AE2A79FCD500B63236 /* libxcb.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxcb.1.dylib; path = myPlayer/Frameworks/libxcb.1.dylib; sourceTree = "<group>"; };
@@ -216,8 +216,6 @@
 			children = (
 				6193A4E22A7A27E500B63236 /* Module */,
 				6193A4DD2A7A270F00B63236 /* Views */,
-				6193A4A42A79FB6400B63236 /* ffmpeg.c */,
-				6193A4A52A79FB6400B63236 /* ffmpeg.h */,
 				7993F42C2A78EA4900F0E046 /* AppDelegate.swift */,
 				7993F42E2A78EA4900F0E046 /* ContentView.swift */,
 				7993F4302A78EA4C00F0E046 /* Assets.xcassets */,
@@ -225,8 +223,10 @@
 				7993F4382A78EA4C00F0E046 /* Info.plist */,
 				7993F4392A78EA4C00F0E046 /* myPlayer.entitlements */,
 				7993F4322A78EA4C00F0E046 /* Preview Content */,
-				6193A4A32A79FB6300B63236 /* myPlayer-Bridging-Header.h */,
 				6193A4E52A7A284800B63236 /* AudioPlayer.swift */,
+				61000CFC2A7B3F3100241381 /* ffmpeg.h */,
+				61000CFD2A7B3F3100241381 /* ffmpeg.c */,
+				61000CFF2A7B400800241381 /* myPlayer(macOS)-Bridging-Header.h */,
 			);
 			path = myPlayer;
 			sourceTree = "<group>";
@@ -322,8 +322,8 @@
 				6193A4E82A7A28A700B63236 /* ListContentView.swift in Sources */,
 				6193A4F12A7A29BA00B63236 /* PlayerView.swift in Sources */,
 				6193A4EA2A7A28F000B63236 /* MainMenuView.swift in Sources */,
-				6193A4A62A79FB6400B63236 /* ffmpeg.c in Sources */,
 				6193A4EF2A7A299000B63236 /* ModifiersView.swift in Sources */,
+				61000CFE2A7B3F3100241381 /* ffmpeg.c in Sources */,
 				7993F42F2A78EA4900F0E046 /* ContentView.swift in Sources */,
 				6193A4DF2A7A273F00B63236 /* EmpetyListView.swift in Sources */,
 				7993F42D2A78EA4900F0E046 /* AppDelegate.swift in Sources */,
