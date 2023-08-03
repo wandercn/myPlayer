@@ -25,8 +25,8 @@ import SwiftUI
 // }
 
 // 根据文件扩展判断音频文件是否支持
+let exts = [".flac", ".mp3", ".wav", ".m4a", ".aif", ".m4r"]
 func IsAudioFileSupported(f: String)-> Bool {
-    let exts = [".flac", ".mp3", ".wav", ".m4a"]
     for ext in exts {
         if f.hasSuffix(ext) {
             return true
@@ -183,7 +183,13 @@ func GetMetadata(path: String)->Song? {
     }
 
     if s.name.isEmpty {
-        s.name = (URL(fileURLWithPath: path).lastPathComponent).replacingOccurrences(of: ".mp3", with: "")
+        var str = (URL(fileURLWithPath: path).lastPathComponent)
+        for ext in exts {
+            flog.debug("ext: \(ext)")
+            str = str.replacingOccurrences(of: ext, with: "")
+        }
+        flog.debug("str: \(str)")
+        s.name = str
     }
     // 释放打开的音频文件
     avformat_close_input(&fmt_ctx)
@@ -219,4 +225,3 @@ func GetAlbumCoverImage(path: String) ->Image? {
     av_free(pkt)
     return img
 }
-
