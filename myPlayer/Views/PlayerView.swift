@@ -235,6 +235,7 @@ struct PlayControlBar: View {
             Button(action: {
                 if showPlayButton {
                     player.Play()
+                    player.isOnChange = true
                 } else {
                     player.Pause()
                 }

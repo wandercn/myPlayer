@@ -156,6 +156,7 @@ class AudioPlayer: NSObject, ObservableObject, AVAudioPlayerDelegate {
         isfinished = true
         PlayNext()
         isfinished = false
+        isOnChange = true
     }
 
     func audioPlayerDecodeErrorDidOccur(_ player: AVAudioPlayer, error: Error?) {
